@@ -1,0 +1,30 @@
+.contact-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+}
+.form-control {
+  margin: 1rem 0;
+}
+.form-control label,
+.form-control input {
+  width: 100%;
+  display: block;
+}
+.form-control input {
+  border: 1px solid rgb(8, 1, 4);
+  font: inherit;
+  border-radius: 2px;
+}
+button {
+  font: inherit;
+  border: 1px solid black;
+  background: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover,
+button:active {
+  background-color: purple;
+  color: white;
+}
